@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>work</title>
+    <script>
+        var deviceWidth=document.documentElement.clientWidth;
+        if(deviceWidth>640) deviceWidth=640;
+        document.documentElement.style.fontSize=deviceWidth/6.4+'px';
+        console.log(document.documentElement.style.fontSize)
+        console.log(deviceWidth);
+        console.log(document.documentElement.clientHeight);
+    </script>
+    <script>
+        window.onload=function(){
+            setTimeout(function() {
+                window.scrollTo(0, 1);
+                if(document.documentElement.scrollHeight <= document.documentElement.clientHeight) {
+                    var bodyTag = document.getElementsByTagName('body')[0];
+                    bodyTag.style.height = document.documentElement.clientWidth / screen.width * screen.height + 'px';
+                }
+            }, 0);
+        };
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <!–[if lt IE 9]>
+    <script src=”http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js”></script>
+    <![endif]–>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="work.css" rel="stylesheet" type="text/css">
+    <script src="template.js" type="text/javascript"></script>
+</head>
+
+<body>
+<header>
+    <div id="header_title">
+        <h1>QiangZhang</h1>
+        <a href="http://www.ie.ac.cn/" target="_blank" style="float: left">IECAS,</a>
+        <a href="http://www.ie.ac.cn/jgsz/kybm/sysmk/cgjs/" target="_blank">National Key Lab of Transducer Technology</a>
+    </div>
+    <nav id="header_nav">
+        <ul id="navigation">
+            <li id="home"><a href="index.html">Home</a></li>
+            <li id="me"><a href="AboutMe.html" title="Me">Me</a></li>
+            <li id="work"><a href="work.html" title="work" >Work</a></li>
+            <li id="CV"><a href="CV.pdf" >CV</a></li>
+        </ul>
+    </nav>
+</header>
+
+<article class="main_body">
+    <div id="body_content">
+        <div id="work_exper">
+            <h3>Research Interests</h3><br/>
+            <p>Machine Learning, Physiological Signal Fusion and Modeling, Large-scale Clinical Data Analysis, Disease Diagnosis</p><br/>
+
+            <h3>Professional Experience</h3><br/>
+            <h4>National Key Lab of Transducer Technology, Beijing</h4>
+            <dl><dt>Graduate Research Assistant</dt><dt style="text-align: right;float:none">September 2014 present</dt></dl>
+                <ul id="exper1">
+                    <li><dt>Topic:</dt><dd> Physiological data fusion algorithm based on signal quality indice.</dd></li>
+                    <li><dt>Goal: </dt><dd>Improve heart rate and blood pressure estimation accuracy, and reduce false arrhythmia alarm rates</dd></li>
+                    <li><dt>Responsibilities:</dt>
+                     <dd>
+                         <ul>
+                         <li>Participating in clinical investigation and emphasizing online research</li>
+                         <li>Data acquisition, cleaning and feature engineering</li>
+                         <li>Prototyping and implementing machine learning algorithm, such as SVM and ANN</li>
+                         <li>Developing GUI software for real-time data analysis</li>
+                         </ul>
+                     </dd>
+                    </li>
+                </ul><br/>
+
+            <h4> State Key Lab of Modern Communication Technology, Jinan</h4>
+            <dl><dt>Undergraduate Researcher</dt><dt style="text-align: right;float:none">March 2012 May 2014</dt></dl>
+            <ul id="exper2">
+                <li><dt>Topic:</dt><dd> An Intelligent Parking Guidance System</dd></li>
+                <li><dt>Goal: </dt><dd>Display available parking spaces on an electronic map in an APP and plan a route to the user-selected parking area</dd></li>
+                <li><dt>Responsibilities:</dt>
+                    <dd>
+                        <ul>
+                        <li>Organizing weekly meetings and assigning tasks as the team leader</li>
+                        <li>Communicating and cooperating with senior researchers</li>
+                        <li>Developing cloud-based database system</li>
+                        <li>Preparing draft manuscripts and corresponding to inquires</li>
+                        </ul>
+                    </dd>
+                </li>
+            </ul><br/>
+
+            <h4> Internship	Research Group of Xinheyidian Company, Beijing</h4>
+            <dl><dt>Algorithm Engineer</dt><dt style="text-align: right;float:none">May 2016 – present</dt></dl>
+            <ul id="exper3">
+                <li>
+                    <dt>Responsibilities:</dt>
+                    <dd><ul>
+                        <li>Research of remote cardiovascular disease diagnosis based on electrocardiogram</li>
+                        <li>Developing pattern recognition algorithms</li>
+                    </ul>
+                    </dd>
+                </li>
+            </ul><br/>
+
+            <h3>Selected Publications</h3>
+            <ul id="publication">
+                <li>Qiang Zhang, Xianxiang Chen, Zhen Fang, and Shanhong Xia, “Reducing false arrhythmia alarm rates using multimodal heart beat detection and cost-sensitive support vector machines”, Physiological Measurement. (Under Review)</li>
+                <li class="link"><a class="paper" target="_blank" title="PDF" href="CV.pdf"></a></li>
+                <li>Qiang Zhang, Xianxiang Chen, Zhen Fang, and Shanhong Xia, “Continuous Blood Pressure Monitoring Algorithm Using Pulse Transit Time and  Modified Kalman Filter”, Asia-Pacific Conference on Transducers and Micro-Nano Technology (APCOT), Japan, June 2016. (Conference paper)</li>
+                <li class="link"><a class="paper" target="_blank" title="PDF" href="CV.pdf"></a></li>
+                <li>Qiang Zhang, Xianxiang Chen, Zhen Fang, and Shanhong Xia, “False Arrhythmia Alarm Reduction in the Intensive Care Unit Using Data Fusion and Machine Learning”, International Conference on Biomedical and Health Informatics(EMBS), Las Vegas, February 2016. (Conference paper)</li>
+                <li class="link"><a class="paper" target="_blank" title="PDF" href="CV.pdf"></a></li>
+                <li>Qiang Zhang, Dong Bian, Zhongzhou Lu, and Wuxiang Zhou, “An intelligent parking guidance system”, CN201410077409.3, 2014. (Patent)</li>
+                <li class="link"><a class="paper" target="_blank" title="PDF" href="CV.pdf"></a></li>
+
+
+
+            </ul>
+            </div>
+    </div>
+
+    <div id="sidebar">
+        <div id="time_display">
+            <ul id="time">
+                <li id="hour_de"></li>
+                <li id="hour_unit"></li>
+                <li id="colon1"></li>
+                <li id="minute_de"></li>
+                <li id="minute_unit"></li>
+                <li id="colon2"></li>
+                <li id="second_de"></li>
+                <li id="second_unit"></li>
+            </ul>
+            <ul id="week_date">
+                <li id="week"></li>
+            </ul>
+            <script> clock(); </script>
+        </div>
+    </div>
+
+</article>
+
+<footer class="body_foot">
+    <div class="foot_subnav"></div>
+    <div class="foot_content">
+        <p>Copyright &copy; 2016 Xue Yongjiao, All Rights Reserved</p>
+        <p>薛永娇 版权所有</p>
+    </div>
+</footer>
+</body>
+</html>

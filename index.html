@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>index</title>
+    <script>
+        var deviceWidth=document.documentElement.clientWidth;
+        if(deviceWidth>640) deviceWidth=640;
+        document.documentElement.style.fontSize=deviceWidth/6.4+'px';
+    </script>
+    <script>
+        window.onload=function(){
+            setTimeout(function() {
+                window.scrollTo(0, 1);
+                if(document.documentElement.scrollHeight <= document.documentElement.clientHeight) {
+                   var bodyTag = document.getElementsByTagName('body')[0];
+                    bodyTag.style.height = document.documentElement.clientWidth / screen.width * screen.height + 'px';
+                }
+
+            }, 0);
+        };
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <!–[if lt IE 9]>
+    <script src=”http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js”></script>
+    <![endif]–>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="description" content="Qiang Zhang - Web Design &amp;" />
+    <meta name="keywords" content=" Qiang Zhang,keyword1,keyword2" />
+
+    <link href="index.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+<div id="info">
+    <p id="country">IECAS,China</p>
+    <p id="name">Qiang Zhang</p>
+    <p id="job">Student + Engineer</p>
+</div>
+
+    <ul id="navigation">
+        <li id="home"><a href="index.html">Home</a></li>
+        <li id="About me"><a href="AboutMe.html" title="Me">Me</a></li>
+        <li id="work"><a href="work.html" title="work" >Work</a></li>
+        <li id="CV"><a href="CV.pdf" >CV</a></li>
+    </ul>
+</body>
+</html>
