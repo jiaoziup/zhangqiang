@@ -11,7 +11,7 @@ header #header_title a{ margin:  0.08rem auto auto 0.14rem;display: block;font-f
 header #header_title a:hover{text-shadow: 0.05rem 0.05rem 0.05rem #FFFFB0;}
 
 header nav#header_nav{ height: 0.6rem; background-color:#65934A;}
-header nav#header_nav ul#navigation li{width: 2rem;height: 100%;float: left;list-style: none;text-align: center;overflow: hidden;}
+header nav#header_nav ul#navigation li{width: 2.5rem;height: 100%;float: left;list-style: none;text-align: center;overflow: hidden;}
 header nav#header_nav ul#navigation li:hover{border-bottom: solid 0.05rem #FFFFB0;}
 header nav#header_nav ul#navigation li a{font-size: 0.25rem; font-weight: bold;color: floralwhite;line-height: 0.5rem; }
 /*------------------------------------------------------- article ------------------------------------------------------*/

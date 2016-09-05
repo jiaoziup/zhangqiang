@@ -6,13 +6,13 @@ h1 { font-size: 0.7rem;}h2 { font-size: 0.6rem;}h3 { font-size: 0.35rem;}h4 { fo
 a{text-decoration: none;}
 /*-------------------------------------------------------header------------------------------------------------------*/
 header{width: 12rem;margin: 0 auto;height: 2.42rem;}
-header #header_title{height: 1.52rem;background-color:#55833A;color: #ffffff; padding: 0.3rem 0.2rem 0.1rem }
+header #header_title{height: 1.52rem;background-color:#55833A;color: #ffffff; padding: 0.3rem 0.2rem 0.1rem ;}
 header #header_title a{ margin:  0.08rem auto auto 0.14rem;display: block;font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
     font-weight: bolder;color: #ffffff;font-size: 0.4rem;text-decoration:none;}
 header #header_title a:hover{text-shadow: 0.05rem 0.05rem 0.05rem #FFFFB0;}
 
 header nav#header_nav{ height: 0.6rem; background-color:#65934A;}
-header nav#header_nav ul#navigation li{width: 2rem;height: 100%;float: left;list-style: none;text-align: center;overflow: hidden;}
+header nav#header_nav ul#navigation li{width: 2.5rem;height: 100%;float: left;list-style: none;text-align: center;overflow: hidden;}
 header nav#header_nav ul#navigation li:hover{border-bottom: solid 0.05rem #FFFFB0;}
 header nav#header_nav ul#navigation li a{font-size: 0.25rem; font-weight: bold;color: floralwhite;line-height: 0.5rem; }
 /*------------------------------------------------------- body ------------------------------------------------------*/
