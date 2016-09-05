@@ -7,7 +7,7 @@ body div#info p#name{font-size: 1rem;}
 body div#info p#job{font-size: 0.5rem;}
 
 body ul#navigation{ width:100%; height: 0.8rem; margin: 0.4rem 10% 0 10%;position: relative;}
-body ul#navigation li{ width: 20%; float: left;list-style: none;text-align: center; overflow: hidden;}
+body ul#navigation li{ width: 2rem; float: left;list-style: none;text-align: center; overflow: hidden;}
 body ul#navigation li:hover{border-bottom: solid 0.04rem #ffffff;}
 body ul#navigation li a{font-family:Arial, '幼圆' ;font-size: 0.3rem;font-weight: bold;color: floralwhite;align-content: center;text-decoration: none;}
 
