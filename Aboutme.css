@@ -1,98 +1,40 @@
 /* =================| HTML5 display definitions |============================================================*/
-*{ margin: 0px; padding: 0px;border: 0px;}
-body{font-family:Arial ;font-size: 0.1rem; }
-h1,h2,h3,h4,h5{font-family: STLiti;font-weight: bold; }
-h1 { font-size: 0.7rem;}
-h2 { font-size: 0.6rem;}
-h3 { font-size: 0.35rem;}
-h4 { font-size: 0.25rem;}
-h5 { font-size: 0.2rem;}
+*{ margin: 0; padding: 0;border: 0;}
+body{font-family:"Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;font-size: 0.2rem; }
+h1,h2,h3,h4,h5{font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;font-weight: bold; }
+h1 { font-size: 0.7rem;}h2 { font-size: 0.6rem;}h3 { font-size: 0.35rem;}h4 { font-size: 0.25rem;}h5 { font-size: 0.2rem;}
 a{text-decoration: none;}
-
 /*-------------------------------------------------------header------------------------------------------------------*/
 header{width: 12rem;margin: 0 auto;height: 2.42rem;}
-header #header_title{height: 1.52rem;background-color:#65934A;color: #ffffff; padding: 0.3rem 0.2rem 0.1rem }
-header #header_title a{
-    margin:  0.08rem auto auto 0.14rem;  /*top right bottom left*/
-    display: block;
-    font-family: '华文隶书'; font-weight: bolder;color: #ffffff;font-size: 0.4rem;
-    text-decoration:none;
-}
+header #header_title{height: 1.52rem;background-color:#55833A;color: #ffffff; padding: 0.3rem 0.2rem 0.1rem }
+header #header_title a{ margin:  0.08rem auto auto 0.14rem;display: block;font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    font-weight: bolder;color: #ffffff;font-size: 0.4rem;text-decoration:none;}
 header #header_title a:hover{text-shadow: 0.05rem 0.05rem 0.05rem #FFFFB0;}
 
-header nav#header_nav{ height: 0.5rem; background-color:#407434;}
-header nav#header_nav ul#navigation{position: relative;}
-header nav#header_nav ul#navigation li{
-    width: 2rem;
-    padding: 0.1rem 0 0.1rem 0;
-    font-size: 0.2rem;
-    float: left;
-    list-style: none;
-    text-align: center;
-    overflow: hidden;
-    border-bottom: solid 0.05rem #407434;
-
-}
-header nav#header_nav ul#navigation li:hover{border-bottom: solid 0.05rem red;}
-header nav#header_nav ul#navigation li a{font-size: 0.2rem; font-weight: bold;color: floralwhite; align-content: center;}
+header nav#header_nav{ height: 0.6rem; background-color:#65934A;}
+header nav#header_nav ul#navigation li{width: 2rem;height: 100%;float: left;list-style: none;text-align: center;overflow: hidden;}
+header nav#header_nav ul#navigation li:hover{border-bottom: solid 0.05rem #FFFFB0;}
+header nav#header_nav ul#navigation li a{font-size: 0.25rem; font-weight: bold;color: floralwhite;line-height: 0.5rem; }
 /*------------------------------------------------------- body ------------------------------------------------------*/
 article.main_body{width:12rem;margin: 0 auto;height: 17rem;}
 article.main_body div{float: left;}
-article.main_body div#body_content{width: 9.36rem;height: 100%;background-color: #EEEEEE;}
-article.main_body div#body_content div img#zqpic{height: 3rem;width: 1.8rem;margin: 0.57rem 0.5rem 0.57rem 0.5rem;}
-article.main_body div#body_content div#zqinfo{ position: relative;margin:0.5rem 0.5rem 0.5rem auto;font-size: 0.2rem;}
+article.main_body div#body_content{width: 12rem;height: 100%;background-color: #EEEEEE;}
+article.main_body div#body_content div img#zqpic{height: 3rem;width: 2.1rem;margin: 0.57rem 0.5rem 0.57rem 0.8rem;}
+article.main_body div#body_content div#zqinfo{ position: relative;margin:0.5rem 0.5rem 0.5rem 0.5rem;font-size: 0.2rem;}
 
 dl{display:block;}
-dt{padding: 0.05rem 0 0.03rem;float:left; font-weight:bold; color: #505a60;text-transform:uppercase;font-size:0.15rem; }
+dt{padding: 0.05rem 0 0.03rem;float:left; font-weight:bold; color: #505a60;font-size:0.2rem; }
 dd{padding: 0.05rem 0 0.03rem;  border-bottom: 0.01rem solid #e0e3e5;font-size:0.2rem;}
 article.main_body div#body_content div#zqinfo dl#infolist dt{width: 1rem}
 article.main_body div#body_content div#zqinfo dl#infolist dd{margin-left:1rem;}
 
-
-
-article.main_body div#body_content div#experience{clear:both;margin: 0 0.5rem; color: black;}
+article.main_body div#body_content div#experience{clear:both;margin: 0 2rem auto 0.8rem; color: black;}
 article.main_body div#body_content div#experience dl#education dt{ width:2rem;}
 article.main_body div#body_content div#experience dl#education dd{ margin-left:2rem;}
-article.main_body div#body_content div#experience dl#awards dt{ width:7rem;}
+article.main_body div#body_content div#experience dl#awards dt{ color:black;font-weight:normal;idth:7rem;}
 article.main_body div#body_content div#experience dl#awards dd{ margin-left:7rem;text-align:right;}
 article.main_body div#body_content div#experience dl#technical dt{float:none;}
 article.main_body div#body_content div#experience dl#technical dd{margin-left:1rem;}
-
-article.main_body div#sidebar{width:2.64rem;height: 100%;background-color: RGB(179,197,135);}
-article.main_body div#sidebar div#time_display{
-    width: 100%;
-    margin: auto auto;
-    height: 1.5rem;
-    line-height: 0.5rem;      /*div中单行文字垂直居中*/
-    text-align: center;
-    font-family: Arial,"幼圆";
-    font-weight: bold;
-    font-size: 0.25rem;
-    color: white;
-}
-article.main_body div#sidebar div#time_display ul#time li{float: left;height: 0.48rem; width: 12.5%; list-style: none;}
-article.main_body div#sidebar div#time_display ul#week_date{clear: both;height: 0.5rem;list-style: none;}
 /*-------------------------------------------------------footer------------------------------------------------------*/
-footer.body_foot{
-    clear: both;
-    width: 12rem;
-    margin: 0 auto;
-    height: 0.5rem;
-    line-height: 0.25rem;
-    background-color: chartreuse;
-    text-align: center;
-    font-family: Arial,"宋体";
-    font-size: 0.12rem;
-}
-@media screen and (max-device-width: 800px) {
-    body{
-        float: none;
-        width:100%;
-    }
-    article.main_body div#body_content {
-        width: 100%;
-    }
-    article.main_body div#sidebar {
-        display:none;
-    }
-}
+footer.body_foot{width: 12rem;margin: 0 auto;height: 0.5rem;line-height: 0.25rem;background-color: rgb(179,214,110);
+    text-align: center; font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif ;;font-size: 0.12rem;}
